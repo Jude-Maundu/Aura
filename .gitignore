@@ -1,0 +1,73 @@
+# ==========================
+# NODE / EXPRESS BACKEND
+# ==========================
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# Coverage
+coverage/
+
+# Uploads (backend)
+uploads/
+public/uploads/
+
+# Cache
+.cache/
+.vite/
+.next/
+out/
+
+# ==========================
+# REACT (VITE) FRONTEND
+# ==========================
+auraguard-frontend/node_modules/
+auraguard-frontend/dist/
+auraguard-frontend/.env
+auraguard-frontend/.env.local
+auraguard-frontend/.DS_Store
+auraguard-frontend/npm-debug.log*
+auraguard-frontend/yarn-debug.log*
+auraguard-frontend/yarn-error.log*
+auraguard-frontend/.vite/
+
+# ==========================
+# EDITOR / IDE
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# MISC
+# ==========================
+*.pem
+*.key
+*.crt
+*.p12
+*.lock

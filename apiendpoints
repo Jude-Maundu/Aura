@@ -1,0 +1,23 @@
+POST   /api/auraguard/analyze/text
+POST   /api/auraguard/analyze/music
+POST   /api/auraguard/analyze/topics
+
+
+POST   /api/auraguard/fusion/score
+POST   /api/auraguard/mood-drift
+
+POST   /api/auraguard/ai-support/respond
+GET    /api/auraguard/interventions/get
+
+POST   /api/auraguard/escalate
+
+POST   /api/auraguard/activity/ingest
+
+POST   /api/auth/register
+POST   /api/auth/login
+
+GET    /api/users/
+GET    /api/users/:id
+PUT    /api/users/:id
+DELETE /api/users/:id
+ 
