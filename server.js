@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
+import userRoutes from "./routes/user.routes.js";
 import { fileURLToPath } from "url";
 
 // --- IMPORT AURAGUARD ROUTES ---
@@ -36,6 +37,15 @@ app.get("/test", (req, res) => {
 //        AURAGUARD ROUTES
 // ===============================
 app.use("/api/auraguard", auraguardRoutes);
+// ===============================
+//        USER ROUTES
+// ===============================
+app.use("/api/users", userRoutes);
+
+// ===============================
+//     HANDLE UNKNOWN ROUTES
+// ===============================  
+
 
 // Handle unknown routes
 app.use((req, res) => {
